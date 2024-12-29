@@ -1,6 +1,6 @@
 from typing import List
 from abc import ABC, abstractmethod
-from src.models.sqlite.repositories.pets_repository import PetsTable
+from src.models.sqlite.entities.pets import PetsTable
 
 class PetsRepositoryInterface(ABC):
 
